@@ -5,16 +5,11 @@ core = 8.x
 ; The make file must specify which Drush Make API version it uses.
 api = 2
 
-; Drupal Core
-projects[silex_d8][type] = "profile"
-projects[silex_d8][download][url] = http://github.com/j420n/silex_d8.git
-
-
 ; Drupal core
-projects[drupal][version] = 8.1.2
+projects[drupal][version] = 8.1.3
 
 ; Head from git
 projects[drupal][download][type] = git
 projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
 projects[drupal][download][branch] = 8.x
-projects[drupal][download][tag] = 8.0.2
+projects[drupal][download][tag] = 8.1.3
